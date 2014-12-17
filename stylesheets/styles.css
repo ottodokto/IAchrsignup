@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:50px;
+  padding-top:13%;
+  font:25px/1.5 Lato;
+  color:#777;
+  font-weight:300;
+  height:20%;
+  background-image: url("http://www.samsung-wallpapers.com/uploads/allimg/130729/1-130H9102056.jpg");
+}
+
+#sign-in {
+  position: relative;
+  background-color: #F7F7FF;
+  border-radius:9px;
+  width:50%;
+  padding:10px;
+}
+
+button{
+	 background: #d94158;
+  background-image: -webkit-linear-gradient(top, #d94158, #ad3838);
+  background-image: -moz-linear-gradient(top, #d94158, #ad3838);
+  background-image: -ms-linear-gradient(top, #d94158, #ad3838);
+  background-image: -o-linear-gradient(top, #d94158, #ad3838);
+  background-image: linear-gradient(to bottom, #d94158, #ad3838);
+  
+  border-radius: 7px;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 2% 6% 2% 6%;
+  text-decoration: none;
+  margin-left:25%;
+  margin-top:5%;
+  }
+ button:hover {
+ background: #db6b6b;
+  background-image: -webkit-linear-gradient(top, #db6b6b, #d64949);
+  background-image: -moz-linear-gradient(top, #db6b6b, #d64949);
+  background-image: -ms-linear-gradient(top, #db6b6b, #d64949);
+  background-image: -o-linear-gradient(top, #db6b6b, #d64949);
+  background-image: linear-gradient(to bottom, #db6b6b, #d64949);
+  text-decoration: none;
+}
+input {
+	margin-left:30px;
+	height:30px;
+	width:80%;
+	font:23px/1.5 Lato;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin:0 0 0px;
+  padding-left:7px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+h3 {
+padding-bottom:10px;
+}
+
+p {
+  margin:0 0 0px;
+  padding-left:0px;
+}
+p.bottom {
+	padding-top:10px;
+	margin-left:0%;
+	width:60%;
+	color:#f7f7f7;
+	
+}
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h2 {
+  color:#393939;
+}
+h5{
+	padding-left:4%;
+	color:#393939;
+}
+
+h3, h4, h6 {
+  color:#494949;
+}
+
+a {
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+
+.wrapper {
+  width:43%;
+  margin:0 auto;
+}
+
+header {
+
+  width:1000px;
+  float:left;
+  position:fixed;
+  background-color:#c3c3c3;
+
+  }
+
+section {
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
+
+small {
+  font-size:11px;
+}
+
+
+#footer {
+	position:absolute;
+	bottom:0%;
+	right:1%;
+	
+	
+	
+}
+
+
