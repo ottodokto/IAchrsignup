@@ -3,36 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>IA Chromebook Sign-up</title>
+    <title>IA Chromebook Sign-Out</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-	<link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="stylesheets/mainStyle.css">
+	  <link rel="icon" href="../resources/ico/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <section>
-
-      <h5>IA Chromebook Sign-Out</h5>
-      <div id="sign-in">
+     <div id="sign-in">
+        <h5>Chromebook Sign-Out</h5>
       	<h6>Username</h6>
       	<input type="text" name="username" placeholder="Student ID">
       	<h6>Password</h6>
-      	<input type="password" name="password" placeholder="Password">
-		<button type="button">Sign Out!</button>
+      	<input type="password" name="password" placeholder="Locker Combination">
+		    <button type="button" onClick=window.location.href="/login/">Sign In!</button>
+       
       </div>
+      <script src="javascripts/randLink.js"></script>
+      <p class="bottom">Sign out a chromebook. <a id="imagelink" target="_blank"><img src="../resources/ico/chrico.png" style="width:25px;height:25px" ></p></a>
+	   <div id="footer">
 
-<p class="bottom">Sign out a chromebook. <a href="https://drive.google.com/drive"><img src="./chrico.png" style="width:25px;height:25px"></p></a>
-      </section>
-    </div>
-	<div id="footer">
-        <p class="footer">Source <a href="https://github.com/ottodokto">Here</a></p>
-	  </div>
-    <script src="javascripts/scale.fix.js"></script>	
-    
+        <p class="footer">Source <a target="_blank" href="https://github.com/ottodokto/IAchrsignup">Here</a></p>
+	   </div> 
   </body>
 </html>
