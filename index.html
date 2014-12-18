@@ -15,12 +15,13 @@
   <body>
      <div id="sign-in">
         <h5>Chromebook Sign-Out</h5>
+        <form id="login">
       	<h6>Username</h6>
-      	<input type="text" name="username" placeholder="Student ID">
+      	<input type="text" id="username" placeholder="Student ID">
       	<h6>Password</h6>
-      	<input type="password" name="password" placeholder="Locker Combination">
-		    <button type="button" onClick=window.location.href="/login/">Sign In!</button>
-       
+      	<input type="password" id="password" placeholder="Locker Combination">
+		    <button id="submit" type="submit" onClick=window.location.href="/login/">Sign In!</button>
+        </form>
       </div>
       <script src="javascripts/randLink.js"></script>
       <p class="bottom">Sign out a chromebook. <a id="imagelink" target="_blank"><img src="../resources/ico/chrico.png" style="width:25px;height:25px" ></p></a>
